@@ -145,6 +145,32 @@ hr {
     background-color: var(--off-white);
 }
 
+#contacts {
+    text-align: center;
+    padding: 5%;
+}
+
+.btn{
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding:2rem;
+    color: #fff !important;
+    font-size: 1.5rem;
+    box-shadow: 0px 2px 2px #ad8ac4;
+    padding: 8px 40px;
+    border-radius: 0.5rem;
+    border: 2px outset #caa8f1;
+    background: #6b2adb;
+    letter-spacing: 3px;
+}
+.number{
+    background-color: #e3d2ff;
+    padding: 1px;
+    font-size: x-large;
+    letter-spacing: 3px;
+}
 /** footers **/
 
 .footer {
