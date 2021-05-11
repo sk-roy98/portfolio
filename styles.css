@@ -35,7 +35,7 @@ hr {
 .link {
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.8vw;
 }
 
 .link-primary {
@@ -62,8 +62,6 @@ hr {
     background-color: #bca6d4;
 }
 
-/** look into BEM naming convention for CSS **/
-
 /** lists **/
 
 .list-non-bullet {
@@ -73,7 +71,7 @@ hr {
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 0.7vw;
 }
 
 /** navigation **/
@@ -169,20 +167,23 @@ hr {
     color: #fff !important;
     font-size: 1.5rem;
     box-shadow: 0px 2px 2px #ad8ac4;
-    padding: 8px 40px;
+    padding: 0.3rem 3.5rem;
     border-radius: 0.5rem;
+    text-decoration: none;
     border: 2px outset #d2b9ee;
     background: #6b2adb;
     letter-spacing: 3px;
+    transition: 0.4s;
 }
 .btn:hover{
     text-decoration: underline;
-    background: #7C3AED;
+    background: #4a1c99;
+    transition: 0.4s;
 }
 .number{
     background-color: #e3d2ff;
     padding: 1px;
-    font-size: x-large;
+    font-size: larger;
     letter-spacing: 3px;
 }
 /** footers **/
